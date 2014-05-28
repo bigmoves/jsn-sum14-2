@@ -52,7 +52,7 @@ function subtract(objA, objB) {
   var subtract = {};
   if (!isObject(objA) || !isObject(objB)) return;
   for (var prop in objA) {
-    if (objB.hasOwnProperty(prop)) { continue; }
+    if (objB.hasOwnProperty(prop)) continue;
     subtract[prop] = objA[prop];
   }
   return subtract;
@@ -104,8 +104,8 @@ assert.ok(subtract({}, '') === undefined, 'test 19');
 assert.ok(subtract('', '') === undefined, 'test 20');
 
 // Part d
-// Union and intersection are not symmetric because the values of the
-// way that a properties value is assigned and the order that the
+// Union and intersection are not symmetric because of the
+// way that a property values are assigned and the order that the
 // objects are passed into the function.
 
 
