@@ -123,11 +123,11 @@ _Hint:_ the `people` object should contain an index of all people, linking each 
 
 Here is a diagram showing the data structure after `people` is fully initialized but before any method calls:
 
-![](social-network1.svg)
+![](http://chadtmiller.github.io/jsn-sum14-2/social-network1.svg)
 
 Here is the data structure just after the first method call `people.meet('Dan','Ben')`:
 
-![](social-network2.svg)
+![](http://chadtmiller.github.io/jsn-sum14-2/social-network2.svg)
 
 _[Difficulty: Hard]_
 
